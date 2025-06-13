@@ -5,10 +5,12 @@
 
 .button {
   background-color: antiquewhite;
+  height: 32px;
 }
 
 .label {
   font-weight: bold;
+  margin-right: 12px;
 }
 
 .input {
@@ -17,6 +19,8 @@
 
 .label-input {
   display: flex;
+  margin-right: 12px;
+  margin-bottom: 8px;
 }
 
 .book-register {
@@ -25,4 +29,6 @@
 
 .filterable-book-table {
   display: flex;
+  flex-direction: column;
+  text-align: center;
 }
