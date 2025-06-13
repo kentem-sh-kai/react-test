@@ -2,8 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import FilterableBookTable from './components/filterableBookTable';
 import { BookItemModel } from './models';
-import Input from './components/Input';
-import Button from './components/Button';
 import InputForm from './components/InputForm';
 
 function App() {
