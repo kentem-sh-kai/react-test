@@ -50,6 +50,10 @@ function App() {
         onClickLendingSwitch={(id) => {
           {
             /* 第2問：貸出 or 返却 or 削除の処理を追加 */
+            setBooks((preBooks) => preBooks.map((preBook) => ({
+              ...preBook,
+              isOnLoan: preBook.id === id ? !preBook.isOnLoan : preBook.isOnLoan
+            })));
           }
         }}
       />
